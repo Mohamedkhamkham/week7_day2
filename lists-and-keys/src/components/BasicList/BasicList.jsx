@@ -3,7 +3,7 @@ import { drinksData } from "../../fakeAPI"
 
 const BasicList = () => {
 
-    const [drinks, setDrinks] = useState(drinksData)
+    const [drinks] = useState(drinksData)
 
     return (
         <>
